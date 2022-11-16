@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/weightView"
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Weight (KG)" />
+
+    <EditText
+        android:id="@+id/weightText"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="999"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/heightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="height" />
+
+    <EditText
+        android:id="@+id/heightText"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="999"
+        android:inputType="textPersonName" />
+
+    <Switch
+        android:id="@+id/maleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="Male" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:visibility="invisible"
+        />
+
+
+</LinearLayout>
